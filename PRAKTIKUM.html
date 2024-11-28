@@ -26,11 +26,11 @@
     }
 
     #container1 {
-      background-color: #b9bec5; /* Warna estetik (Alice Blue) */
+      background-color: #b9bec5; 
     }
 
     #container2 {
-      background-color: #e6e6fa; /* Warna estetik (Lavender) */
+      background-color: #e6e6fa; 
     }
 
     .list {
@@ -56,19 +56,17 @@
     </ul>
   </div>
   <script>
-    // Ganti href pada tag <a>
     document.getElementById("myLink").setAttribute("href", "https://www.google.com");
 
-    // Ubah text, style, size, dan warna background setiap list menggunakan loop
     const lists = document.querySelectorAll(".list");
 
     lists.forEach((item, index) => {
       item.textContent = `List baru ${index + 1}`;
-      item.style.backgroundColor = "#faf3dd"; // Warna estetik (Beige)
-      item.style.color = "#333"; // Warna teks gelap
-      item.style.fontSize = "20px"; // Ukuran font baru
-      item.style.padding = "10px"; // Padding baru
-      item.style.borderRadius = "5px"; // Beri radius untuk estetika
+      item.style.backgroundColor = "#faf3dd"; 
+      item.style.color = "#333"; 
+      item.style.fontSize = "20px"; 
+      item.style.padding = "10px"; 
+      item.style.borderRadius = "5px"; 
     });
   </script>
 </body>
